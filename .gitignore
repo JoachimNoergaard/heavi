@@ -1,0 +1,5 @@
+# macOS system files
+.DS_Store
+
+# Ignore everything in the bin folder
+Heavi2025/HEAVI/bin/*
