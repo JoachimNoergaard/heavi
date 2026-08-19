@@ -22,6 +22,9 @@ namespace HEAVI
         public int LargestPossibleSoundPressure;
         public int GamesInADay;
         public int GamesWon;
+        // COM3 = prolific = vægt og COM4 hejs
+        public string WeightComPort = "COM3";
+        public string MotorComPort = "COM4";
         private string _appPath;
         public Settings(string appPath)
         {
@@ -65,6 +68,10 @@ namespace HEAVI
                             GamesInADay = Convert.ToInt32(kvp[1]);
                         if (kvp[0] == "GamesWon")
                             GamesWon = Convert.ToInt32(kvp[1]);
+                        if (kvp[0] == "WeightComPort" && !string.IsNullOrWhiteSpace(kvp[1]))
+                            WeightComPort = kvp[1].Trim();
+                        if (kvp[0] == "MotorComPort" && !string.IsNullOrWhiteSpace(kvp[1]))
+                            MotorComPort = kvp[1].Trim();
 
 
                     }
@@ -85,6 +92,8 @@ namespace HEAVI
                 LargestPossibleSoundPressure = 60000;
                 GamesInADay = 50;
                 GamesWon = 0;
+                WeightComPort = "COM3";
+                MotorComPort = "COM4";
                 SaveSetings();
             }
         }
@@ -106,6 +115,8 @@ namespace HEAVI
             temp += "LargestPossibleSoundPressure#" + LargestPossibleSoundPressure + "\r\n";
             temp += "GamesInADay#" + GamesInADay + "\r\n";
             temp += "GamesWon#" + GamesWon + "\r\n";
+            temp += "WeightComPort#" + WeightComPort + "\r\n";
+            temp += "MotorComPort#" + MotorComPort + "\r\n";
 
             streamWriter.Write(temp);
             streamWriter.Close();

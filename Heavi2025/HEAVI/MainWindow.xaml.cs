@@ -119,8 +119,8 @@ namespace HEAVI
             if (true)
                 try
                 {
-                    // COM3 = prolific = vægt og COM4 hejs
-                    rs232 = new Rs232Helper("COM3", "COM4");
+                    // COM3 = prolific = vægt og COM4 hejs (default - kan sættes i Settings.txt)
+                    rs232 = new Rs232Helper(settings.WeightComPort, settings.MotorComPort);
                     rs232.WeightDataRecieved += Rs232_WeightDataRecieved;
                     rs232.MotorDataChanged += Rs232_MotorDataChanged;
                     rs232.OpenPorts();
@@ -530,15 +530,14 @@ namespace HEAVI
             if ((Math.Abs(lastWeightDifference) <= Math.Abs(kgsToHit - minimumWeightToHit)))
             {
 //                pathArrowWeightDifference.Fill = new SolidColorBrush(Colors.Green);
-                imageArrowWeight.Source = new BitmapImage(new Uri(@"/GFX/arrowgreen.png", UriKind.Relative));
-                imageRedCross.Source = new BitmapImage(new Uri(@"/GFX/Check.png", UriKind.Relative));
+                imageArrowWeight.Source = new BitmapImage(new Uri(@"/GFX/greenplate.png", UriKind.Relative));
+            
             }
             else
             {
                 //              pathArrowWeightDifference.Fill = new SolidColorBrush(Colors.Red);
-                imageArrowWeight.Source = new BitmapImage(new Uri(@"/GFX/arrowred.png", UriKind.Relative));
-                imageRedCross.Source = new BitmapImage(new Uri(@"/GFX/RedX.png", UriKind.Relative));
-
+                imageArrowWeight.Source = new BitmapImage(new Uri(@"/GFX/redplate.png", UriKind.Relative));
+            
 
             }
             int voidWidth = 35;

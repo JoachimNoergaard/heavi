@@ -122,8 +122,13 @@
     <Compile Include="WagerWon..xaml.cs">
       <DependentUpon>WagerWon..xaml</DependentUpon>
     </Compile>
+    <Resource Include="tallman_base.png" />
+    <Resource Include="tallman.png" />
     <Resource Include="GFX\arrowgreen.png" />
     <Resource Include="GFX\arrowred.png" />
+    <Resource Include="GFX\dwarflower.png" />
+    <Resource Include="GFX\dwarfupper.png" />
+    <Resource Include="GFX\butcher.png" />
     <Content Include="GFX\Fireworks.mp4">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -133,6 +138,15 @@
     <Resource Include="GFX\Weight.png" />
     <Resource Include="GFX\scalebottom.png" />
     <Resource Include="GFX\scaletop.png" />
+    <Resource Include="greenwoman.png" />
+    <Resource Include="GFX\tallman_hand.png" />
+    <Resource Include="GFX\tallman_head.png" />
+    <Resource Include="GFX\transparent.png" />
+    <Resource Include="GFX\mermaid.png" />
+    <Resource Include="GFX\greenplate.png" />
+    <Resource Include="GFX\redplate.png" />
+    <Resource Include="GFX\loosepeople.png" />
+    <Resource Include="GFX\winpeople.png" />
     <Content Include="Sound\Rendered\InZone5.mp3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

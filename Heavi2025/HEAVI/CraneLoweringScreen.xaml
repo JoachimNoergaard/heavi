@@ -62,7 +62,7 @@
     </Window.Triggers>
     <Grid>
         <MediaElement x:Name="mediaPlayer" HorizontalAlignment="Left" VerticalAlignment="Top"  Source="GFX/Fireworks.mp4"/>
-        <local:ShadowTextBlock x:Name="shadowTextBlock" Margin="235,88,231,0" VerticalAlignment="Top" Foreground="White" Width="Auto" Text="Kranen henter nu JERES øl!" ShadowOffset="2" FontSize="133.333" Height="393" RenderTransformOrigin="0.5,0.5">
+        <local:ShadowTextBlock x:Name="shadowTextBlock" Margin="235,88,231,0" VerticalAlignment="Top" Foreground="White" Width="Auto" Text="I har befriet de forbudte øl!" ShadowOffset="2" FontSize="133.333" Height="393" RenderTransformOrigin="0.5,0.5">
             <local:ShadowTextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>

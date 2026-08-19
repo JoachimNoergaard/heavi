@@ -88,9 +88,11 @@
                     </TransformGroup>
                 </RadialGradientBrush.Transform>
                 <GradientStop Color="Red" Offset="0.507"/>
-                <GradientStop Color="White"/>
+                <GradientStop Color="Red"/>
             </RadialGradientBrush>
         </Grid.Background>
+        <Image x:Name="loosepeople" HorizontalAlignment="Left" Height="688" Margin="386,377,0,0" VerticalAlignment="Top" Width="1156" Source="/GFX/loosepeople.png"/>
+
         <Grid x:Name="grid1" Margin="-10,0,-5,223.621" Height="180" VerticalAlignment="Bottom" d:LayoutOverrides="Height" RenderTransformOrigin="0.5,0.5">
             <Grid.RenderTransform>
                 <TransformGroup>
@@ -123,6 +125,7 @@
                 </TransformGroup>
             </local:ShadowTextBlock.RenderTransform>
         </local:ShadowTextBlock>
+
         <local:ShadowTextBlock x:Name="textBlockButDontLooseHope" Margin="490,464.961,513.637,0" VerticalAlignment="Top" Foreground="White" Text="Men bevar håbet!" Width="Auto" Height="57.63" RenderTransformOrigin="0.5,0.5">
             <local:ShadowTextBlock.RenderTransform>
                 <TransformGroup>

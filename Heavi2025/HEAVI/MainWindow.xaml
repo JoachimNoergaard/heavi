@@ -392,7 +392,7 @@
                 </Grid.RowDefinitions>
 
                 <Rectangle x:Name="rectYourCombinedWeightBorder" RadiusX="10" RadiusY="10" StrokeThickness="5" RenderTransformOrigin="0.5,0.5" Stroke="#FF444444" Grid.RowSpan="3" Margin="-472,0,472,0"/>
-                <Rectangle x:Name="rectYourCombinedWeight" RadiusX="10" RadiusY="10" StrokeThickness="5" RenderTransformOrigin="0.5,0.5" Fill="Black" Opacity="0.2" Grid.RowSpan="3" Margin="-472,0,472,0"/>
+                <Rectangle x:Name="rectYourCombinedWeight" RadiusX="10" RadiusY="10" StrokeThickness="5" RenderTransformOrigin="0.5,0.5" Fill="Black" Opacity="0.2" Grid.RowSpan="3" Margin="-473,0,473,0" />
                 <local:ShadowTextBlock x:Name="textBlockYourCombinedWeight" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="50.667" FontFamily="Tw Cen MT Condensed Extra Bold" Text="Jeres  vægt:" Height="70" Foreground="White" Width="465" Margin="-396,10,0,0"/>
                 <local:ShadowTextBlock x:Name="textCurrentWeight" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="50.667" FontFamily="Tw Cen MT Condensed Extra Bold" Text="x kg" Height="70" Foreground="White" Width="465" Margin="-396,100,0,0"/>
 
@@ -406,7 +406,7 @@
                         <TranslateTransform/>
                     </TransformGroup>
                 </Grid.RenderTransform>
-                <Image x:Name="imageGuy1" HorizontalAlignment="Right" Margin="0" Width="190" Source="GFX/GuyGlasses.png" Height="333.5" VerticalAlignment="Bottom" RenderTransformOrigin="0.813,1.004">
+                <Image x:Name="imageGuy1" HorizontalAlignment="Right" Margin="0,0,-49,0" Width="190" Source="/GFX/butcher.png" Height="500" VerticalAlignment="Bottom" RenderTransformOrigin="0.813,1.004">
                     <Image.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -416,13 +416,14 @@
                         </TransformGroup>
                     </Image.RenderTransform>
                 </Image>
-                <Image x:Name="imageGuy1EyesVClosed" Height="28" VerticalAlignment="Top" Source="GFX/GuyGlassesEyesClosed.png" Stretch="Fill" HorizontalAlignment="Left" Width="63.666" Margin="87,39,0,0"/>
+                <Image x:Name="imageGuy1EyesVClosed" Height="28" VerticalAlignment="Top" Source="/GFX/transparent.png" Stretch="Fill" HorizontalAlignment="Left" Width="63.666" Margin="87,39,0,0" IsEnabled="False"/>
             </Grid>
             <Grid x:Name="grdStylishgiGirl" HorizontalAlignment="Right" Height="288" Margin="0,0,-400,-571" VerticalAlignment="Bottom" Width="141" RenderTransformOrigin="0.583,0.937">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="54*"/>
                     <RowDefinition Height="13*"/>
-                    <RowDefinition Height="221*"/>
+                    <RowDefinition Height="55*"/>
+                    <RowDefinition Height="166*"/>
                 </Grid.RowDefinitions>
                 <Grid.RenderTransform>
                     <TransformGroup>
@@ -432,19 +433,24 @@
                         <TranslateTransform/>
                     </TransformGroup>
                 </Grid.RenderTransform>
-                <Image x:Name="imageStylishGirlUpper" HorizontalAlignment="Right" Margin="0,0,-5,94" Width="112" Source="GFX/StylishGirlUpper.png" Height="172" VerticalAlignment="Bottom" RenderTransformOrigin="0.348,0.773" Grid.RowSpan="3">
+                <Image x:Name="imageStylishGirlLower" Margin="70,0,-131,-58" Source="/GFX/dwarflower.png" Height="233" VerticalAlignment="Bottom" Grid.Row="2" Grid.RowSpan="2"/>
+                <Image x:Name="imageStylishGirlUpper" HorizontalAlignment="Right" 
+                       Margin="0,0,-123,153" Width="178" Source="/GFX/dwarfupper.png" Height="229" VerticalAlignment="Bottom" RenderTransformOrigin="0.348,0.773" Grid.RowSpan="4">
                     <Image.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
-                            <SkewTransform/>
-                            <RotateTransform Angle="-8.65"/>
+                            <SkewTransform AngleX="1.089"/>
+                            <RotateTransform Angle="-3"/>
                             <TranslateTransform/>
                         </TransformGroup>
                     </Image.RenderTransform>
                 </Image>
-                <Image x:Name="imageStylishGirlLower" Margin="3,0,-15,-67" Source="GFX/StylishGirlLower.png" Height="201" VerticalAlignment="Bottom" Grid.Row="2"/>
             </Grid>
             <Grid x:Name="grdBrunette" HorizontalAlignment="Right" Height="288" Margin="0,0,-270,-649" VerticalAlignment="Bottom" Width="141" RenderTransformOrigin="0.583,0.937">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="137*"/>
+                    <ColumnDefinition Width="4*"/>
+                </Grid.ColumnDefinitions>
                 <Grid.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -453,7 +459,7 @@
                         <TranslateTransform/>
                     </TransformGroup>
                 </Grid.RenderTransform>
-                <Image x:Name="imageBrunette" HorizontalAlignment="Left" Margin="0" Width="153" Source="GFX/Brunette.png" Height="297.5" VerticalAlignment="Bottom" RenderTransformOrigin="0.813,1.004">
+                <Image x:Name="imageBrunette" HorizontalAlignment="Left" Margin="-58,0,0,0" Width="189" Source="/GFX/mermaid.png" Height="316" VerticalAlignment="Bottom" RenderTransformOrigin="0.813,1.004">
                     <Image.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -463,8 +469,8 @@
                         </TransformGroup>
                     </Image.RenderTransform>
                 </Image>
-                <Image x:Name="imageBrunetteEyesClosed" Height="26" Margin="46,40,53,0" VerticalAlignment="Top" Source="GFX/BrunetteEyesClosed.png"/>
-                <Image x:Name="imageTits" Margin="29,96,35,0" Source="GFX/Tits.png" Height="38" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" MouseDown="imageTits_MouseDown">
+                <Image x:Name="imageBrunetteEyesClosed" Height="26" Margin="46,40,49,0" VerticalAlignment="Top" Source="/GFX/transparent.png"/>
+                <Image x:Name="imageTits" Margin="27,96,33,0" Source="/GFX/transparent.png" Height="38" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" MouseDown="imageTits_MouseDown">
                     <Image.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -476,6 +482,14 @@
                 </Image>
             </Grid>
             <Grid x:Name="grdSandGuy" HorizontalAlignment="Right" Height="288" Margin="0,0,-575,-594" VerticalAlignment="Bottom" Width="141" RenderTransformOrigin="0.583,0.937">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="15*"/>
+                    <ColumnDefinition Width="32*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="49*"/>
+                    <RowDefinition Height="239*"/>
+                </Grid.RowDefinitions>
                 <Grid.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -484,8 +498,7 @@
                         <TranslateTransform/>
                     </TransformGroup>
                 </Grid.RenderTransform>
-                <Image x:Name="imageSandGuyMain" HorizontalAlignment="Right" Margin="0,-44.066,-15.333,-34.055" Width="135.133" Source="GFX/SandGuy.png" Height="366.121" VerticalAlignment="Bottom" RenderTransformOrigin="0.348,0.773"/>
-                <Image x:Name="imageSandGuyArm" Margin="10,29.466,44.175,0" Source="GFX/SandGuyHand.png" Height="96.433" VerticalAlignment="Top" RenderTransformOrigin="0.405,0.95">
+                <Image x:Name="imageSandGuyArm" Margin="0,28,25,0" Source="GFX/tallman_hand.png" Height="97" VerticalAlignment="Top" RenderTransformOrigin="0.405,0.95" Grid.RowSpan="2" HorizontalAlignment="Right" Width="87" Grid.ColumnSpan="2">
                     <Image.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -495,27 +508,7 @@
                         </TransformGroup>
                     </Image.RenderTransform>
                 </Image>
-                <Image x:Name="imageMouth" Height="11.466" Margin="0,65.068,44.8,0" VerticalAlignment="Top" Source="GFX/SandGuySmileSmall.png" HorizontalAlignment="Right" Width="21.6" RenderTransformOrigin="0.5,0.5">
-                    <Image.RenderTransform>
-                        <TransformGroup>
-                            <ScaleTransform/>
-                            <SkewTransform/>
-                            <RotateTransform/>
-                            <TranslateTransform/>
-                        </TransformGroup>
-                    </Image.RenderTransform>
-                </Image>
-                <Image x:Name="imageSandGuyBigSmile" Height="23.466" Margin="68.734,56.935,40.533,0" VerticalAlignment="Top" Source="GFX/SandGuySmile.png" RenderTransformOrigin="0.5,0.5">
-                    <Image.RenderTransform>
-                        <TransformGroup>
-                            <ScaleTransform/>
-                            <SkewTransform/>
-                            <RotateTransform/>
-                            <TranslateTransform/>
-                        </TransformGroup>
-                    </Image.RenderTransform>
-                </Image>
-                <Canvas x:Name="canvasGlare" RenderTransformOrigin="0.5,0.5" Width="100" Height="100" Margin="26.5,14.8,14.5,0" VerticalAlignment="Top" d:LayoutOverrides="Height" >
+                <Canvas x:Name="canvasGlare" RenderTransformOrigin="0.5,0.5" Width="100" Height="100" Margin="26,15,15,0" VerticalAlignment="Top" Grid.RowSpan="2" Grid.ColumnSpan="2" >
                     <Canvas.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -525,8 +518,38 @@
                         </TransformGroup>
                     </Canvas.RenderTransform>
                 </Canvas>
+                <Image x:Name="imageSandGuyMain" Margin="43,7,-39,-29" Source="/tallman_base.png" RenderTransformOrigin="0.348,0.773" Grid.RowSpan="2" Grid.ColumnSpan="2">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="-1.122"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="imageSandGuyBigSmile" Margin="54,0,-28,227" VerticalAlignment="Bottom" Source="/GFX/tallman_head.png" RenderTransformOrigin="0.5,0.5" Grid.Column="1" Grid.RowSpan="2">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="-12.575"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+                <Image x:Name="imageMouth" Height="75" Margin="0,-133,-26,0" VerticalAlignment="Top" Source="/GFX/transparent.png" HorizontalAlignment="Right" Width="72" RenderTransformOrigin="0.5,0.5" Grid.Column="1">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
             </Grid>
-            <Image x:Name="imageGuy2" HorizontalAlignment="Right" Margin="0,0,-500,-620.214" Width="132" Source="GFX/NewGuy1.png" Height="333.5" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5">
+            <Image x:Name="imageGuy2" HorizontalAlignment="Right" Margin="0,0,-643,-258" Width="73" Source="/GFX/transparent.png" Height="198" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5">
                 <Image.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -537,15 +560,15 @@
                 </Image.RenderTransform>
             </Image>
             <Canvas x:Name="ArrowWeightDifference" HorizontalAlignment="Right" Margin="0,0,-1420,-7" Width="654.659">
-                <Image x:Name="imageArrowWeight" Source="/GFX/arrowred.png" Width="500" Height="300" Canvas.Left="-106" Canvas.Top="329"></Image>
+                <Image x:Name="imageArrowWeight" Source="/GFX/redplate.png" Width="500" Height="300" Canvas.Left="-16" Canvas.Top="395" HorizontalAlignment="Center" VerticalAlignment="Top"></Image>
                 <!--Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Name="pathArrowWeightDifference" StrokeThickness="4" Stroke="#FFEA8A8A" StrokeLineJoin="Miter" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat"  Height="475.267" Stretch="Fill" Width="359.66" Fill="Red" Canvas.Top="241.252" Canvas.Left="-66.673">
                     <Path.Data>
                         <PathGeometry Figures="m 103.1875 183.22917 18.52083 15.875 -18.52083 15.875 v -10.58333 h -15.875 v -10.58333 h 15.875 z" FillRule="NonZero"/>
                     </Path.Data>
                 </Path-->
-                <TextBlock x:Name="textBlockWeightDiffence" TextAlignment="Right" Text="180" Foreground="White" FontFamily="Tw Cen MT Condensed Extra Bold" FontSize="80" Canvas.Top="431" Canvas.Left="-67" Width="156" HorizontalAlignment="Left" VerticalAlignment="Center" />
-                <Image x:Name="imageRedCross" Height="388" Canvas.Left="252" Canvas.Top="285" Width="312" Source="GFX\RedX.png"/>
-                <TextBlock x:Name="textBlockWeightDiffenceKgs" TextAlignment="Justify" Text="kg" Foreground="White" FontFamily="Tw Cen MT Condensed Extra Bold" FontSize="80" Canvas.Top="431" Canvas.Left="113" HorizontalAlignment="Left" VerticalAlignment="Center" />
+                <TextBlock x:Name="textBlockWeightDiffence" TextAlignment="Right" Text="180" Foreground="White" FontFamily="Tw Cen MT Condensed Extra Bold" FontSize="80" Canvas.Top="488" Canvas.Left="155" Width="156" HorizontalAlignment="Center" VerticalAlignment="Top" />
+                <Image x:Name="imageRedCross" Height="388" Canvas.Left="252" Canvas.Top="285" Width="312" Source="GFX/transparent.png"/>
+                <TextBlock x:Name="textBlockWeightDiffenceKgs" TextAlignment="Justify" Text="kg" Foreground="White" FontFamily="Tw Cen MT Condensed Extra Bold" FontSize="80" Canvas.Top="488" Canvas.Left="335" HorizontalAlignment="Center" VerticalAlignment="Top" />
             </Canvas>
             <Label  x:Name="textBlockCombinedWeight" Content="" FontFamily="Tw Cen MT Condensed Extra Bold" FontSize="96" Foreground="White" Height="200" Width="600" />
             <!--local:ShadowTextBlockContent="320 kgs" Text="blah" FontFamily="Tw Cen MT Condensed Extra Bold" FontSize="96" Foreground="White" Height="754" Width="616.679" Loaded="textBlockCombinedWeight_Loaded"  /-->
@@ -588,7 +611,7 @@
                     <BeginStoryboard Storyboard="{StaticResource MoveUpAndDown}" />
                 </EventTrigger>
             </Canvas.Triggers>
-            <Image x:Name="MyWeight" Canvas.Top="0" Source="/GFX/scaletop.png" Stretch="Fill" Height="257" Width="550" Canvas.Left="552"/>
+            <Image x:Name="MyWeight" Canvas.Top="3" Source="/GFX/scaletop.png" Stretch="Fill" Height="257" Width="550" Canvas.Left="541" HorizontalAlignment="Left" VerticalAlignment="Center"/>
             <Image x:Name="MyWeightBottom" Canvas.Top="128" Source="/GFX/scalebottom.png" Stretch="Fill" Height="190" Width="520" Canvas.Left="570" HorizontalAlignment="Center" VerticalAlignment="Top"/>
         </Canvas>
 

@@ -37,3 +37,16 @@ C:\Users\joach\OneDrive\Desktop\Heavi2025\ScaleWithEffects\obj\Debug\ScaleWithEf
 C:\Users\joach\OneDrive\Desktop\Heavi2025\ScaleWithEffects\obj\Debug\ScaleWithEffects.csproj.CoreCompileInputs.cache
 C:\Users\joach\OneDrive\Desktop\Heavi2025\ScaleWithEffects\obj\Debug\ScaleWithEffects.dll
 C:\Users\joach\OneDrive\Desktop\Heavi2025\ScaleWithEffects\obj\Debug\ScaleWithEffects.pdb
+C:\Users\joach\OneDrive\Desktop\Heavi2026\heavi\Heavi2025\ScaleWithEffects\bin\Debug\ScaleWithEffects.dll
+C:\Users\joach\OneDrive\Desktop\Heavi2026\heavi\Heavi2025\ScaleWithEffects\bin\Debug\ScaleWithEffects.pdb
+C:\Users\joach\OneDrive\Desktop\Heavi2026\heavi\Heavi2025\ScaleWithEffects\obj\Debug\ScaleWithEffects.csproj.AssemblyReference.cache
+C:\Users\joach\OneDrive\Desktop\Heavi2026\heavi\Heavi2025\ScaleWithEffects\obj\Debug\Scale.g.cs
+C:\Users\joach\OneDrive\Desktop\Heavi2026\heavi\Heavi2025\ScaleWithEffects\obj\Debug\ScaleWithEffects_MarkupCompile.cache
+C:\Users\joach\OneDrive\Desktop\Heavi2026\heavi\Heavi2025\ScaleWithEffects\obj\Debug\ScaleWithEffects_MarkupCompile.lref
+C:\Users\joach\OneDrive\Desktop\Heavi2026\heavi\Heavi2025\ScaleWithEffects\obj\Debug\Scale.baml
+C:\Users\joach\OneDrive\Desktop\Heavi2026\heavi\Heavi2025\ScaleWithEffects\obj\Debug\ScaleWithEffects.g.resources
+C:\Users\joach\OneDrive\Desktop\Heavi2026\heavi\Heavi2025\ScaleWithEffects\obj\Debug\ScaleWithEffects.Properties.Resources.resources
+C:\Users\joach\OneDrive\Desktop\Heavi2026\heavi\Heavi2025\ScaleWithEffects\obj\Debug\ScaleWithEffects.csproj.GenerateResource.cache
+C:\Users\joach\OneDrive\Desktop\Heavi2026\heavi\Heavi2025\ScaleWithEffects\obj\Debug\ScaleWithEffects.csproj.CoreCompileInputs.cache
+C:\Users\joach\OneDrive\Desktop\Heavi2026\heavi\Heavi2025\ScaleWithEffects\obj\Debug\ScaleWithEffects.dll
+C:\Users\joach\OneDrive\Desktop\Heavi2026\heavi\Heavi2025\ScaleWithEffects\obj\Debug\ScaleWithEffects.pdb

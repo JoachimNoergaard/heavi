@@ -3,3 +3,5 @@
 
 # Ignore everything in the bin folder
 Heavi2025/HEAVI/bin/*
+Heavi2025/.vs/*
+

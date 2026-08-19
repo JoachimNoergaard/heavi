@@ -76,3 +76,16 @@ C:\Users\joach\OneDrive\Desktop\Heavi2025\AlertLED\obj\Release\AlertLED.csproj.G
 C:\Users\joach\OneDrive\Desktop\Heavi2025\AlertLED\obj\Release\AlertLED.csproj.CoreCompileInputs.cache
 C:\Users\joach\OneDrive\Desktop\Heavi2025\AlertLED\obj\Release\AlertLED.dll
 C:\Users\joach\OneDrive\Desktop\Heavi2025\AlertLED\obj\Release\AlertLED.pdb
+C:\Users\joach\OneDrive\Desktop\Heavi2026\heavi\Heavi2025\AlertLED\bin\Release\AlertLED.dll
+C:\Users\joach\OneDrive\Desktop\Heavi2026\heavi\Heavi2025\AlertLED\bin\Release\AlertLED.pdb
+C:\Users\joach\OneDrive\Desktop\Heavi2026\heavi\Heavi2025\AlertLED\obj\Release\AlertLED.csproj.AssemblyReference.cache
+C:\Users\joach\OneDrive\Desktop\Heavi2026\heavi\Heavi2025\AlertLED\obj\Release\StatusLED.g.cs
+C:\Users\joach\OneDrive\Desktop\Heavi2026\heavi\Heavi2025\AlertLED\obj\Release\AlertLED_MarkupCompile.cache
+C:\Users\joach\OneDrive\Desktop\Heavi2026\heavi\Heavi2025\AlertLED\obj\Release\AlertLED_MarkupCompile.lref
+C:\Users\joach\OneDrive\Desktop\Heavi2026\heavi\Heavi2025\AlertLED\obj\Release\StatusLED.baml
+C:\Users\joach\OneDrive\Desktop\Heavi2026\heavi\Heavi2025\AlertLED\obj\Release\AlertLED.g.resources
+C:\Users\joach\OneDrive\Desktop\Heavi2026\heavi\Heavi2025\AlertLED\obj\Release\AlertLED.Properties.Resources.resources
+C:\Users\joach\OneDrive\Desktop\Heavi2026\heavi\Heavi2025\AlertLED\obj\Release\AlertLED.csproj.GenerateResource.cache
+C:\Users\joach\OneDrive\Desktop\Heavi2026\heavi\Heavi2025\AlertLED\obj\Release\AlertLED.csproj.CoreCompileInputs.cache
+C:\Users\joach\OneDrive\Desktop\Heavi2026\heavi\Heavi2025\AlertLED\obj\Release\AlertLED.dll
+C:\Users\joach\OneDrive\Desktop\Heavi2026\heavi\Heavi2025\AlertLED\obj\Release\AlertLED.pdb

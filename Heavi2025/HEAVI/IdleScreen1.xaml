@@ -311,7 +311,7 @@
             <Image Margin="4.335,4.664,4,-0.368" Source="GFX/WarningStripe.png" Stretch="Fill" Grid.ColumnSpan="3" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin"/>
             <Image Margin="4.333,0.331,4.002,4.669" Source="GFX/WarningStripe.png" Stretch="Fill" Grid.ColumnSpan="3" Grid.Row="2" d:LayoutOverrides="TopMargin, BottomMargin"/>
         </Grid>
-        <Label x:Name="textBlockTimeToNextGameNumber" Content="00:01" Margin="169,94,917,644" Grid.Row="2"  Foreground="#000" FontSize="80" FontWeight="Heavy" Height="102" Width="300" RenderTransformOrigin="0.5,0.5" Grid.Column="1">
+        <Label x:Name="textBlockTimeToNextGameNumber" Content="00:01" Margin="169,94,917,644" Grid.Row="2"  Foreground="#dc4a17" FontSize="80" FontWeight="Heavy" Height="102" Width="300" RenderTransformOrigin="0.5,0.5" Grid.Column="1">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>

@@ -1,13 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\joach\\OneDrive\\Desktop\\Heavi2025\\",
+  "WorkspaceRootPath": "C:\\Users\\joach\\OneDrive\\Desktop\\Heavi2026\\heavi\\Heavi2025\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D6F21FAE-FCF9-426B-8495-EA51624B7027}|HEAVI\\HEAVI.csproj|c:\\users\\joach\\onedrive\\desktop\\heavi2025\\heavi\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6F21FAE-FCF9-426B-8495-EA51624B7027}|HEAVI\\HEAVI.csproj|c:\\users\\joach\\onedrive\\desktop\\heavi2026\\heavi\\heavi2025\\heavi\\roundlostscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D6F21FAE-FCF9-426B-8495-EA51624B7027}|HEAVI\\HEAVI.csproj|solutionrelative:heavi\\roundlostscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6F21FAE-FCF9-426B-8495-EA51624B7027}|HEAVI\\HEAVI.csproj|c:\\users\\joach\\onedrive\\desktop\\heavi2026\\heavi\\heavi2025\\heavi\\roundwonscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D6F21FAE-FCF9-426B-8495-EA51624B7027}|HEAVI\\HEAVI.csproj|solutionrelative:heavi\\roundwonscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6F21FAE-FCF9-426B-8495-EA51624B7027}|HEAVI\\HEAVI.csproj|c:\\users\\joach\\onedrive\\desktop\\heavi2026\\heavi\\heavi2025\\heavi\\wagerlost.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6F21FAE-FCF9-426B-8495-EA51624B7027}|HEAVI\\HEAVI.csproj|solutionrelative:heavi\\wagerlost.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6F21FAE-FCF9-426B-8495-EA51624B7027}|HEAVI\\HEAVI.csproj|c:\\users\\joach\\onedrive\\desktop\\heavi2026\\heavi\\heavi2025\\heavi\\wagerlost.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D6F21FAE-FCF9-426B-8495-EA51624B7027}|HEAVI\\HEAVI.csproj|solutionrelative:heavi\\wagerlost.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6F21FAE-FCF9-426B-8495-EA51624B7027}|HEAVI\\HEAVI.csproj|c:\\users\\joach\\onedrive\\desktop\\heavi2026\\heavi\\heavi2025\\heavi\\wagerwon..xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D6F21FAE-FCF9-426B-8495-EA51624B7027}|HEAVI\\HEAVI.csproj|solutionrelative:heavi\\wagerwon..xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6F21FAE-FCF9-426B-8495-EA51624B7027}|HEAVI\\HEAVI.csproj|c:\\users\\joach\\onedrive\\desktop\\heavi2026\\heavi\\heavi2025\\heavi\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D6F21FAE-FCF9-426B-8495-EA51624B7027}|HEAVI\\HEAVI.csproj|solutionrelative:heavi\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6F21FAE-FCF9-426B-8495-EA51624B7027}|HEAVI\\HEAVI.csproj|C:\\Users\\joach\\OneDrive\\Desktop\\Heavi2026\\heavi\\Heavi2025\\heavi\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6F21FAE-FCF9-426B-8495-EA51624B7027}|HEAVI\\HEAVI.csproj|solutionrelative:heavi\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D6F21FAE-FCF9-426B-8495-EA51624B7027}|HEAVI\\HEAVI.csproj|C:\\Users\\joach\\OneDrive\\Desktop\\Heavi2025\\heavi\\rs232helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D6F21FAE-FCF9-426B-8495-EA51624B7027}|HEAVI\\HEAVI.csproj|C:\\Users\\joach\\OneDrive\\Desktop\\Heavi2026\\heavi\\Heavi2025\\heavi\\rs232helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D6F21FAE-FCF9-426B-8495-EA51624B7027}|HEAVI\\HEAVI.csproj|solutionrelative:heavi\\rs232helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,30 +42,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\joach\\OneDrive\\Desktop\\Heavi2025\\HEAVI\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "HEAVI\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\joach\\OneDrive\\Desktop\\Heavi2025\\HEAVI\\MainWindow.xaml.cs",
-              "RelativeToolTip": "HEAVI\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAP4BAAAAAAAAAAD4vwECAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T19:59:02.577Z",
+              "DocumentIndex": 1,
+              "Title": "RoundWonScreen.xaml",
+              "DocumentMoniker": "C:\\Users\\joach\\OneDrive\\Desktop\\Heavi2026\\heavi\\Heavi2025\\HEAVI\\RoundWonScreen.xaml",
+              "RelativeDocumentMoniker": "HEAVI\\RoundWonScreen.xaml",
+              "ToolTip": "C:\\Users\\joach\\OneDrive\\Desktop\\Heavi2026\\heavi\\Heavi2025\\HEAVI\\RoundWonScreen.xaml",
+              "RelativeToolTip": "HEAVI\\RoundWonScreen.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-13T13:15:34.934Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "RoundLostScreen.xaml",
+              "DocumentMoniker": "C:\\Users\\joach\\OneDrive\\Desktop\\Heavi2026\\heavi\\Heavi2025\\HEAVI\\RoundLostScreen.xaml",
+              "RelativeDocumentMoniker": "HEAVI\\RoundLostScreen.xaml",
+              "ToolTip": "C:\\Users\\joach\\OneDrive\\Desktop\\Heavi2026\\heavi\\Heavi2025\\HEAVI\\RoundLostScreen.xaml",
+              "RelativeToolTip": "HEAVI\\RoundLostScreen.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-13T13:03:04.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WagerLost.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\joach\\OneDrive\\Desktop\\Heavi2026\\heavi\\Heavi2025\\HEAVI\\WagerLost.xaml.cs",
+              "RelativeDocumentMoniker": "HEAVI\\WagerLost.xaml.cs",
+              "ToolTip": "C:\\Users\\joach\\OneDrive\\Desktop\\Heavi2026\\heavi\\Heavi2025\\HEAVI\\WagerLost.xaml.cs",
+              "RelativeToolTip": "HEAVI\\WagerLost.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T13:02:43.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WagerLost.xaml",
+              "DocumentMoniker": "C:\\Users\\joach\\OneDrive\\Desktop\\Heavi2026\\heavi\\Heavi2025\\HEAVI\\WagerLost.xaml",
+              "RelativeDocumentMoniker": "HEAVI\\WagerLost.xaml",
+              "ToolTip": "C:\\Users\\joach\\OneDrive\\Desktop\\Heavi2026\\heavi\\Heavi2025\\HEAVI\\WagerLost.xaml",
+              "RelativeToolTip": "HEAVI\\WagerLost.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-13T13:02:36.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WagerWon..xaml",
+              "DocumentMoniker": "C:\\Users\\joach\\OneDrive\\Desktop\\Heavi2026\\heavi\\Heavi2025\\HEAVI\\WagerWon..xaml",
+              "RelativeDocumentMoniker": "HEAVI\\WagerWon..xaml",
+              "ToolTip": "C:\\Users\\joach\\OneDrive\\Desktop\\Heavi2026\\heavi\\Heavi2025\\HEAVI\\WagerWon..xaml",
+              "RelativeToolTip": "HEAVI\\WagerWon..xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-13T13:02:29.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\joach\\OneDrive\\Desktop\\Heavi2026\\heavi\\Heavi2025\\HEAVI\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "HEAVI\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\joach\\OneDrive\\Desktop\\Heavi2026\\heavi\\Heavi2025\\HEAVI\\MainWindow.xaml",
+              "RelativeToolTip": "HEAVI\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-08-12T05:31:37.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\joach\\OneDrive\\Desktop\\Heavi2026\\heavi\\Heavi2025\\HEAVI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "HEAVI\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\joach\\OneDrive\\Desktop\\Heavi2026\\heavi\\Heavi2025\\HEAVI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "HEAVI\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAQCAAAAAAAAAAAowBsCAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-10T22:45:53.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Rs232Helper.cs",
-              "DocumentMoniker": "C:\\Users\\joach\\OneDrive\\Desktop\\Heavi2025\\HEAVI\\Rs232Helper.cs",
+              "DocumentMoniker": "C:\\Users\\joach\\OneDrive\\Desktop\\Heavi2026\\heavi\\Heavi2025\\HEAVI\\Rs232Helper.cs",
               "RelativeDocumentMoniker": "HEAVI\\Rs232Helper.cs",
-              "ToolTip": "C:\\Users\\joach\\OneDrive\\Desktop\\Heavi2025\\HEAVI\\Rs232Helper.cs",
+              "ToolTip": "C:\\Users\\joach\\OneDrive\\Desktop\\Heavi2026\\heavi\\Heavi2025\\HEAVI\\Rs232Helper.cs",
               "RelativeToolTip": "HEAVI\\Rs232Helper.cs",
-              "ViewState": "AgIAAE4BAAAAAAAAAAASwJQBAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAIA/wDUAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-18T19:43:38.702Z"
             }
